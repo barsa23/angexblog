@@ -13,10 +13,32 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Sli';
+    src: url('/fonts/Sli.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Hyperfont';
+    src: url('/fonts/HyperFont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Flexi';
+    src: url('/fonts/Flexi.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 /* Global styles */
 html {
-    background-color: #1e1e2e;
+    background: rgb(12, 5, 22);
+
     color: #fdebf3;
 }
 
@@ -28,12 +50,12 @@ body {
 
 /* Headings */
 h1, h2 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Sli';
     font-weight: normal;
 }
 
 h1 {
-    font-size: 2.6em;
+    font-size: 2em;
     margin: 0;
 }
 
@@ -41,16 +63,16 @@ h2 {
     text-decoration: underline #375a7f;
     text-decoration-thickness: 4px;
     text-underline-offset: 6px;
-    font-size: 2.1em;
+    font-size: 1.5em;
     margin-bottom: 0;
 }
 
 /* Paragraphs */
 p {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     hyphens: auto;
-    line-height: 1.5;
+    line-height: 1.2;
     text-indent: 1em;
 }
 
@@ -69,8 +91,8 @@ p {
 }
 
 .title-link, .nav-links {
-    font-family: 'Pacifico', cursive;
-    font-size: 1.3rem;
+    font-family: 'Hyperfont', cursive;
+    font-size: 1.1rem;
 }
 
 .title-link a, .nav-links a {
