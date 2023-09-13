@@ -4,30 +4,17 @@ import Card from '../../components/Card.astro';
 const pageTitle = "Conceptos";
 ---
 <Layout pageTitle={pageTitle}>
-    <div class="gif">
+    <div class="gif" style="margin-bottom: 10px;">
         <img width="305" height="169" alt="RaccoonLaptopGif" src="/kojot.png"/>
     </div>
-    <h2>Contributions</h2>
-    <ul role="list" class="link-card-grid">
-        <Card
-            href="https://github.com/"
-            image="https://media.giphy.com/media/11Cn7h5PA8cyiY/giphy.gif"
-            title="Open-source 1"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-        <Card
-            href="https://github.com/"
-            image="https://media.giphy.com/media/11Cn7h5PA8cyiY/giphy.gif"
-            title="Open-source 2"
-            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
-        />
-    </ul>
+    <small>Koyot Arje</small>
+   
     <h2>Projects</h2>
     <ul role="list" class="link-card-grid">
         <Card
             href="https://github.com/"
-            image="https://media.giphy.com/media/clffiicvvmhXrYaAs8/giphy.gif"
-            title="Project 1"
+            image="https://media.giphy.com/media/EOtPRaVsLA2uA/giphy.gif"
+            title="Primer Capsula: Fragmentos del futuro pasado"
             body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
         />
         <Card
@@ -49,4 +36,37 @@ const pageTitle = "Conceptos";
             body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
         />
     </ul>
+
+    <h2>Contributions</h2>
+    <ul role="list" class="link-card-grid">
+        <Card
+            href="https://github.com/"
+            image="https://media.giphy.com/media/11Cn7h5PA8cyiY/giphy.gif"
+            title="Open-source 1"
+            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+        />
+        <Card
+            href="https://github.com/"
+            image="https://media.giphy.com/media/11Cn7h5PA8cyiY/giphy.gif"
+            title="Open-source 2"
+            body="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+        />
+    </ul>
 </Layout>
+
+
+<style>
+    /* small */
+    small {
+        background: rgb(101,46,91);
+background: radial-gradient(circle, rgba(101,46,91,1) 0%, rgba(0,0,0,1) 100%);
+        color: #fdebf3;
+        border-radius: 6px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        padding: 0.3em 0.6em 0.2em;
+       margin-left: 230px;
+        justify-content: center;
+    
+    }
+    </style>
